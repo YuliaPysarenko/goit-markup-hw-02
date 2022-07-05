@@ -38,9 +38,6 @@ ul {list-style: none;
     color: var(--primary-text-color);
 }
 
-.contacts .contects-studia.current {
-    color: var(--accent-color);
-}
 .contacts {
     color: var(--titel-text-color);
     font-weight: 500;
@@ -55,6 +52,11 @@ ul {list-style: none;
 .contacts :hover,.contacts :focus {
 color: var(--accent-color);
 }
+
+.contacts .contacts-link.current {
+    color: var(--accent-color);
+}   
+
 
 .social-link-mail,.social-link-tel {
     color: var(--titel-text-color);
@@ -95,13 +97,14 @@ color: var(--accent-color);
         text-align: center;
         cursor: pointer;
 }
-.post-button :hover,.post-button :focus {
+.post-button:hover,.post-button:focus {
     background-color: var(--h-button-color);
 }
     
 /* Оссобенности */
 
 .benefits-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -146,7 +149,7 @@ color: var(--accent-color);
 }
 /* Подвал */
 .footer {
-    color: var(--primary-white-color);
+color: var(--primary-white-color);
 background-color: var(--background-color);
 font-style: normal;
 }
@@ -158,6 +161,7 @@ font-style: normal;
 .link {
     font-weight: 400;
     line-height: 1.71;
+    font-style: normal;
 }
 .link-address {
   color: var(--primary-white-color);  
@@ -175,13 +179,12 @@ font-style: normal;
     color: var(--accent-color);
 }
 
-.buttons :hover,.buttons :focus 
+.button-iten:hover,.button-iten:focus 
 {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-.button-ol,.button-link,.button,.button-disigner,
-.button-market
+.button-iten
 {   
     background-color: var(--select-button-color);
     font-weight: 500;
@@ -193,7 +196,8 @@ font-style: normal;
 
 /* Проекты */
    .project-name 
-   {color: var(--primary-text-color);
+   {
+   color: var(--primary-text-color);
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
