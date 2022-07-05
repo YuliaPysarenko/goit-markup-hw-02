@@ -33,9 +33,11 @@ ul {list-style: none;
     line-height: 1.19;
     cursor: pointer; 
 }
-.logo {
-    color: var(--accent-color);
+
+.colortext {
+    color: var(--primary-text-color);
 }
+
 .contacts .contects-studia.current {
     color: var(--accent-color);
 }
@@ -94,7 +96,6 @@ color: var(--accent-color);
         cursor: pointer;
 }
 .post-button :hover,.post-button :focus {
-color: var(--primary-white-color);
     background-color: var(--h-button-color);
 }
     
@@ -149,19 +150,21 @@ color: var(--primary-white-color);
 background-color: var(--background-color);
 font-style: normal;
 }
-.logo
 
+.studiocolor{
+    color: var(--primary-white-color);
+}
 
 .link {
-    color: var(--primary-white-color);
     font-weight: 400;
     line-height: 1.71;
 }
-
+.link-address {
+  color: var(--primary-white-color);  
+}
 .link-mail,.link-tel 
 {
-    color: var(--color-link-footer);
-        line-height: 1.71;            
+    color: var(--color-link-footer);            
 }
 
 /* Портфолио страница сайта №2 */
